@@ -1,0 +1,51 @@
+name: Instruction Improvement or New Contribution
+description: Suggest an improvement or contribute a new Copilot instruction file.
+title: "[Instruction] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: technology
+    attributes:
+      label: Technology / Framework
+      description: Select the relevant technology or framework
+      options:
+        - React
+        - Laravel
+        - Node.js
+        - Python
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: issue_type
+    attributes:
+      label: Issue Type
+      description: Select the type of contribution or suggestion
+      options:
+        - label: New Instruction File
+        - label: Improvement to Existing Instruction File
+        - label: Version-Specific Instruction Addition
+        - label: General Suggestion
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the improvement, new instruction, or issue in detail
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References (Optional)
+      description: Add links to official documentation or best practices that support your suggestion
+
+  - type: input
+    id: file_path
+    attributes:
+      label: Related File(s)
+      description: Mention relevant file path(s) in the repo (e.g., react/copilot-instructions-v18.md)
