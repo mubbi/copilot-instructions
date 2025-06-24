@@ -23,3 +23,9 @@ These instruction files help Copilot better understand your coding standards, ar
 3. Update VSCode settings:
     ```bash
    "github.copilot.chat.codeGeneration.useInstructionFiles": true
+
+
+---
+![GitHub stars](https://img.shields.io/github/stars/mubbi/copilot-instructions) 
+![GitHub forks](https://img.shields.io/github/forks/mubbi/copilot-instructions) 
+![GitHub license](https://img.shields.io/github/license/mubbi/copilot-instructions)
