@@ -1,4 +1,3 @@
-
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
@@ -35,7 +34,7 @@ This Code of Conduct applies within all project spaces, including GitHub issues,
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers at [your-email@example.com]. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the project maintainers at hello@mubbi.me . All complaints will be reviewed and investigated promptly and fairly.
 
 Project maintainers are obligated to respect the privacy and security of the reporter of any incident.
 
