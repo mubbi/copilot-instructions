@@ -10,12 +10,54 @@ body:
       description: Select the relevant technology or framework
       options:
         - React
+        - Angular
+        - Vue.js
+        - Svelte
+        - Next.js
         - Laravel
+        - Symfony
+        - CodeIgniter
         - Node.js
+        - Express.js
+        - NestJS
         - Python
+        - Django
+        - Flask
+        - FastAPI
+        - Ruby
+        - Ruby on Rails
+        - Java
+        - Spring Boot
+        - Kotlin
+        - Scala
+        - C#
+        - .NET
+        - ASP.NET Core
+        - PHP
+        - Go
+        - Rust
+        - C++
+        - C
+        - TypeScript
+        - JavaScript (Vanilla)
+        - HTML/CSS
+        - Bash/Shell
+        - SQL
+        - GraphQL
+        - Terraform
+        - Docker
+        - Kubernetes
+        - Ansible
         - Other
     validations:
       required: true
+
+  - type: input
+    id: other_technology
+    attributes:
+      label: Other Technology (If "Other" selected above)
+      description: Only fill this if you selected "Other" in the dropdown.
+      placeholder: e.g., Crystal, Haskell, Elixir
 
   - type: checkboxes
     id: issue_type
